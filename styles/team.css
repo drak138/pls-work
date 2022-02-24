@@ -1,0 +1,73 @@
+.team{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team h1{
+    text-align: center;
+}
+.head__line{
+    border: 2px solid black;
+    margin-bottom: 1rem;
+    width: 24%;
+}
+.members{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin-left: 1.5rem; ;
+    justify-content: center;
+}
+.members img{
+    width: 5rem;
+    border: transparent;
+    border-radius: 50%;
+    margin-bottom: 2.2rem;
+}
+.members .member{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 9.3rem;
+    text-align: center;
+}
+.members .member h3{
+    font-size: 1.7rem;
+}
+.members .member p{
+    margin-bottom: 1rem;
+}
+@media  screen and (min-width:492px) {
+    .team h1{
+        font-size: 3.2rem;
+    }
+    .head__line{
+        width: 7rem;
+    }
+    .members img{
+        width: 6rem;
+    }
+}
+@media  screen and (min-width:599px){
+    .members .member{
+        width: 15.99rem;
+    }
+}
+@media  screen and (min-width:920px){
+    .head__line{
+        width: 9rem;
+    }
+}
+@media  screen and (min-width:1230px){
+    .members .member{
+        width: 22.6rem;
+    }
+}
+@media screen and (min-width:1539px){
+    .members .member{
+        width: 30.6rem;
+    }
+}

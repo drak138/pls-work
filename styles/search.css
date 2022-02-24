@@ -1,0 +1,65 @@
+.news{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 8rem;
+}
+.news h1{
+    color: aliceblue;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+.search .search__box{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.search .search__box .search__wrapper{
+    width: 15rem;
+    height: 2rem;
+}
+.search .search__box .search__wrapper input{
+    width: 15rem;
+    outline: none;
+    border: 2px solid black;
+    height: 2rem;
+}
+.search .search__box .search__btn{
+    background-color: aliceblue;
+    border: 2px solid black;
+    outline: none;
+}
+.search .search__box .search__btn:hover{
+    cursor: pointer;
+}
+@media  screen and (min-width:492px) {
+    .news h1{
+        font-size: 2rem;
+    }
+    .search .search__box .search__wrapper{
+        width: 17rem;
+    }
+    .search .search__box .search__wrapper input{
+        width: 17rem;
+    }
+}
+@media  screen and (min-width:920px) {
+    .news h1{
+        font-size: 2.5rem;
+    }
+    .search .search__box .search__wrapper{
+        width: 37rem;
+    }
+    .search .search__box .search__wrapper input{
+        width: 37rem;
+    }
+}
+@media  screen and (min-width:1230px) {
+    .search .search__box .search__wrapper{
+        width: 25rem;
+    }
+    .search .search__box .search__wrapper input{
+        width: 25rem;
+    }
+}

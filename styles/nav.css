@@ -1,0 +1,68 @@
+.nav{
+    height: 6rem;
+    margin-top: 1rem;
+}
+.nav .nav__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2rem;
+}
+.nav .nav__wrapper h1{
+    color: blueviolet;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+.nav p{
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    line-height: 1rem;
+    margin-left: 0.5rem;
+    word-spacing: -2px;
+}
+.nav .nav__wrapper .nav__btn{
+    border: none;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+ul{
+    visibility: collapse;
+}
+@media screen and (min-width:492px) {
+    .nav .nav__wrapper h1{
+        font-size: 3rem;
+    }
+    .nav p{
+        font-size: 0.8rem;
+        line-height: 3rem;
+    }
+    .nav .nav__wrapper .nav__btn{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:920px){
+    .nav .nav__wrapper .nav__info{
+        visibility: visible;
+        display: flex;
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+    .nav .nav__wrapper .nav__info a{
+        text-decoration: none;
+    }
+    .nav .nav__wrapper .nav__btn{
+        display: none;
+    }
+}
+@media screen and (min-width:1230px){
+    .nav .nav__wrapper h1{
+        font-size: 4rem;
+    }
+    .nav p{
+        font-size: 1rem;
+        line-height: 6rem;
+    }
+    .nav .nav__wrapper .nav__info{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,93 @@
+.website{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 93%;
+    margin-left: 1rem;
+}
+.website .website__info{
+    width: 13rem;
+    height: 9rem;
+}
+.website .website__info p{
+    margin-bottom: 2rem;
+}
+.website h1{
+    margin-bottom: 1rem;
+}
+.website .website__info a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 0.3rem 0.5rem;
+}
+.website .website__img{
+    float: right;
+    font-size: 7rem;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+}
+@media screen and (min-width:492px){
+    .website h1{
+        font-size: 2.5rem;
+        margin-bottom: 0rem;
+    }
+    .website .website__info{
+        width: 18rem;
+        height: 11rem;
+        font-size: 1.3rem;
+    }
+    .website .website__img{
+        font-size: 9rem;
+        margin-bottom: 5rem;
+    }
+}
+@media screen and (min-width:616px){
+    .website h1{
+        font-size: 3.5rem;
+    }
+    .website .website__info{
+        width: 25rem;
+    }
+}
+@media screen and (min-width:857px){
+    .website h1{
+        font-size: 3.8rem;
+    }
+    .website .website__info{
+        width: 27rem;
+   }
+}
+@media screen and (min-width:920px){
+    .website h1{
+        font-size: 4rem;
+    }
+    .website .website__info{
+        width: 43rem;
+   }
+}
+@media screen and (min-width:1230px){
+    .website .website__info{
+        width: 61rem;
+        font-size: 1.9rem;
+   }
+   .website .website__img{
+    font-size: 9rem;
+    margin-bottom: 5rem;
+   }
+}
+@media screen and (min-width:1539px){
+    .website .website__info{
+        width: 68rem;
+        font-size: 2.1rem;
+   }
+   .website .website__img{
+    font-size: 11rem;
+    margin-bottom: 5rem;
+}
+}
+@media screen and (min-width:1660px){
+    .website .website__info{
+        width: 83rem;
+   }
+}
